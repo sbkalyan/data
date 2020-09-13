@@ -4,25 +4,33 @@ Data Projects is a Python library for analyzing the Breast Cancer Wisconsin (Dia
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following libraries.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the following libraries. Sytax !{sys.executable} -m pip  install "libray name" is used to install these packages for Jupyter Notebooks specifically.
 
 ```bash
-pip install foobar
+import sys
+!{sys.executable} -m pip install math
+!{sys.executable} -m pip install numpy
+!{sys.executable} -m pip install matplotlib
+!{sys.executable} -m pip install pandas
+!{sys.executable} -m pip install scipy
+!{sys.executable} -m pip install sklearn
+!{sys.executable} -m pip install seaborn
+!{sys.executable} -m pip install statsmodel
+!{sys.executable} -m pip install patsy
 ```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```
+Run each cell. Genearl workflow: 
+  1. Data formatting
+  2. Data visualization
+  3. Feature Normality and Distribution Differences
+  4. Feature Reduction -- PCA
+  5. Models
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Let me know your thoughts!
 
 ## Thanks!
